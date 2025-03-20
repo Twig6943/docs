@@ -12,6 +12,8 @@ One effective workaround is to use a Flatpak terminal to launch the game. We rec
 
 2. Add your flatpak terminal as a game to Lutris.
 
+3. Click **Save**, and your game should now launch successfully.
+
 # Konsole
 
 Go to the **Game Options** tab, and set `org.kde.konsole` in the **Application** field.
@@ -31,8 +33,6 @@ Go to the **Game Options** tab, and set `com.raggesilver.BlackBox` in the **Appl
 In the **Arguments** field, input `-c` followed by the path to the game’s launch script.
 
 ![image](https://github.com/user-attachments/assets/eb9f2f9b-9ce6-490e-aff4-9fc27a4532f2)
-
-3. Click **Save**, and your game should now launch successfully.
 
 <!--
 (Not sure about this part)
