@@ -4,35 +4,32 @@ When attempting to run native Linux games through Flatpak, you may encounter iss
 
 # Workaround
 
-One effective workaround is to use a Flatpak terminal to launch the game. We recommend using [Konsole](https://flathub.org/apps/org.kde.konsole), as it offers a simple and straightforward solution.
+One effective workaround is to use a `flatpak-host` to launch the game.
 
 ### Steps to follow:
 
-1. Install a terminal as a Flatpak application.
+1. Add a new game to lutris. 
 
-2. Add your flatpak terminal as a game to Lutris.
+2.Pick `Linux` as the runner.
 
-3. Click **Save**, and your game should now launch successfully.
+3.Go to `Game options`
 
-# Konsole
+4.Fill in the places like so
 
-Go to the **Game Options** tab, and set `org.kde.konsole` in the **Application** field.
+```
+Executable: /usr/bin/flatpak-spawn
 
-In the **Arguments** field, input `-e` followed by the path to the game’s launch script.
+Arguements: --host /path/to/executable
 
-(If you want the konsole window to stay after you're done playing the game add the `--hold` arguement before `-e`)
+Working directory: /usr/bin/
+```
 
-   For example, the launch script in my case looks like this:
+5.It should look like this at the end
 
-   ![image](https://github.com/user-attachments/assets/8cee160b-875b-4565-b07b-83ad41afe382)
+![image](https://github.com/user-attachments/assets/0fbdf3cc-765a-4c5b-bf47-29e6f2d7aa74)
 
-# Blackbox 
+6. Click **Save**, and your game should now launch successfully.
 
-Go to the **Game Options** tab, and set `com.raggesilver.BlackBox` in the **Application** field.
-
-In the **Arguments** field, input `-c` followed by the path to the game’s launch script.
-
-![image](https://github.com/user-attachments/assets/eb9f2f9b-9ce6-490e-aff4-9fc27a4532f2)
 
 <!--
 (Not sure about this part)
