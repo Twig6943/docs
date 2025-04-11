@@ -16,13 +16,11 @@ One effective workaround is to use a `flatpak-host` to launch the game.
 
 4.Fill in the places like so
 
-```
-Executable: /usr/bin/flatpak-spawn
+Executable: `/usr/bin/flatpak-spawn`
 
-Arguements: --host /path/to/executable
+Arguements: `--host /path/to/executable`
 
-Working directory: /usr/bin/
-```
+Working directory: `/usr/bin/`
 
 5.It should look like this at the end
 
