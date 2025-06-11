@@ -1,1 +1,1 @@
-
+`WINEDLLOVERRIDES=winedevice=d`
