@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This was made because the winetricks' sandbox option seems to not work inside flatpak/umu environment.
+
 # Define wineprefix
 WINEPREFIX=~/PlaceholderPrefix
 
