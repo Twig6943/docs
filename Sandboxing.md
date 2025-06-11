@@ -1,1 +1,1 @@
-`WINEDLLOVERRIDES=winedevice=d`
+`WINEDLLOVERRIDES=winedevice.exe=d`
