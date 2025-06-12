@@ -12,7 +12,7 @@ This works only with the flatpak package
 
 3. Scroll down and add the following as a `Command prefix` to your game
 
-`flatpak-spawn --no-network` add environment variables with `--env=` if you have any
+`flatpak-spawn --no-network` (add environment variables with `--env=` if you have any)
 
 ![](/assets/flatpak-spawn.png)
 
