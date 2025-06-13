@@ -14,6 +14,12 @@ This works only with the flatpak package
 
 `flatpak-spawn --no-network` (add environment variables with `--env=` if you have any)
 
+You probably want to add these 2 environment variables
+
+```sh
+--env=WINEPREFIX=/path/to/prefix --env=PROTON_ENABLE_WAYLAND=1
+```
+
 ![](/assets/flatpak-spawn.png)
 
 # Approach 2: Blocking network access via a firewall (Recommended)
