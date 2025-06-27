@@ -14,10 +14,10 @@ This works only with the flatpak package
 
 `flatpak-spawn --no-network` (add environment variables with `--env=` if you have any)
 
-You probably want to add these 2 environment variables
+You probably want to add these 3 environment variables
 
 ```sh
---env=WINEPREFIX=/path/to/prefix --env=PROTON_ENABLE_WAYLAND=1
+--env=PROTONPATH=/path/to/proton --env=WINEPREFIX=/path/to/prefix --env=PROTON_ENABLE_WAYLAND=1
 ```
 
 ![](/assets/flatpak-spawn.png)
